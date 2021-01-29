@@ -1,0 +1,39 @@
+Using data set m0401
+100 times take avg (GPU):
+original models: 
+multiMLP: 2.8564710000000004 ms Accuracy: 97.14285714285714
+singleMLP: 2.645117000000001 ms Accuracy: 97.14285714285714
+multiCNN: 54.114995000000015 ms Accuracy: 96.42857142857143
+singleCNN: 56.310850000000016 ms Accuracy: 94.28571428571428
+
+pruned models:
+multiMLP: 0.215797 ms Accuracy: 96.42857142857143
+singleMLP: 0.19002000000000002 ms Accuracy: 94.28571428571428
+multiCNN: 1.7090979999999993 ms Accuracy: 97.14285714285714
+singleCNN: 3.513584 ms Accuracy: 92.85714285714286
+
+100 times take avg (CPU):
+original models: 
+multiMLP: 5.441459999999999 ms Accuracy: 97.14285714285714
+singleMLP: 4.910300000000001 ms Accuracy: 97.14285714285714
+multiCNN: 137.60301999999996 ms Accuracy: 96.42857142857143
+singleCNN:  140.91436999999993 ms Accuracy: 94.28571428571428
+
+pruned models:
+multiMLP: 0.37378999999999996 ms Accuracy: 96.42857142857143
+singleMLP: 0.36277000000000004 ms Accuracy: 94.28571428571428
+multiCNN: 5.590789999999996 ms Accuracy: 97.14285714285714
+singleCNN: 9.572120000000004 ms Accuracy: 92.85714285714286
+
+100 times take avg (Raspberry pi):
+original models: 
+multiMLP:
+singleMLP:
+multiCNN:
+singleCNN:
+
+pruned models:
+multiMLP:
+singleMLP:
+multiCNN:
+singleCNN:

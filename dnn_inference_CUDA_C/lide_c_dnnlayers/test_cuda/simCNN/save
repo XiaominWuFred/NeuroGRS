@@ -1,0 +1,7 @@
+cnnRun takes 4.8110 ms
+reluCnn takes 0.0205 ms
+maxpool takes 0.0256 ms
+denserun takes 0.3533 ms
+reluDen takes 0.0061 ms
+denserunD takes 0.0154 ms
+softmaxRun takes 0.0184 ms

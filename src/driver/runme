@@ -1,0 +1,6 @@
+pushd ../../runtime;rm *;popd
+pushd ../../outputs/modelinfo;rm *;popd
+pushd ../../outputs/plots;rm *;popd
+pushd ../../outputs/prunedM;rm *;popd
+pushd ../../outputs/runInfo;rm *;popd
+bash driver.sh
