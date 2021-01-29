@@ -9,7 +9,7 @@ provides well-defined in-terfaces between functional components, and
 exposesimportant forms of high-level application structure that are useful 
 for reliable and efficient implementation inhardware or software. Details of 
 NeuroGRS please refer to the following paper:
-paper link.
+paper link : processing publication  
 
 ## Dataflow based NeuroGRS software
 The software is designed in dataflow modeling format with python3 programming language.   
@@ -62,7 +62,7 @@ For MLP models only:
 modify function run()  
 assign the following MLP related variables (default as None) with prepared dataset mentioned above  
 ```
-		self.mlptrainX = None
+	self.mlptrainX = None
         self.mlptrainY = None
         self.mlpvalX = None
         self.mlpvalY = None
@@ -78,7 +78,7 @@ Leave any CNN related varibale as default value (None)
 For CNN models only:
 assign the following CNN related variables (default as None) with prepared dataset mentioned above
 ```
-		self.cnntrainX = None
+	self.cnntrainX = None
         self.cnntrainY = None
         self.cnnvalX = None
         self.cnnvalY = None
@@ -104,7 +104,7 @@ Additional Custom inputs can be added into args, which is a python list default 
 
 Change the inputs to the call of constructor in NeuroGRS/src/graph/neuroGRS_graph.py  
 ```
-		dataPre = datasetPre([customInput_1, customInput_2,...,customInput_n])  
+	dataPre = datasetPre([customInput_1, customInput_2,...,customInput_n])  
 ```
 
 ### Run NeuroGRS
