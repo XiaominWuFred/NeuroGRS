@@ -9,7 +9,7 @@ provides well-defined in-terfaces between functional components, and
 exposesimportant forms of high-level application structure that are useful 
 for reliable and efficient implementation inhardware or software. Details of 
 NeuroGRS please refer to the following paper:
-paper link.
+paper link : processing publication  
 
 ## Dataflow based NeuroGRS software
 The software is designed in dataflow modeling format with python3 programming language.   
